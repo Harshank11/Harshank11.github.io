@@ -1,0 +1,14 @@
+#navbuttons button{
+    width:100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(211, 231, 235);
+}
+
+#navbuttons button:hover{
+    background-color: rgb(151, 205, 219);
+    transform: scale(1.2);
+    transition: 250ms ease-in-out;
+    cursor: pointer;
+
+}
