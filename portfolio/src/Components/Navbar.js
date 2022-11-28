@@ -43,7 +43,7 @@ export default function Simple() {
   return (
     <>
       <Box w={'100%'} >
-        <Flex border={'1px solid white'} h={50} alignItems={'center'} justifyContent={'space-between'}>
+        <Flex border={'1px solid whit'} h={50} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
             w={'50px'}
