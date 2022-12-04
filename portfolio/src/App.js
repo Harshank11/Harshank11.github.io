@@ -13,7 +13,7 @@ function App() {
         <div id='stars3'></div>
     </div>
     <Simple />
-    <Main/>
+    <Main />
     </div>
   );
 }
