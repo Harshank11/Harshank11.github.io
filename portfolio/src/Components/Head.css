@@ -1,3 +1,8 @@
 #image{
    width: 40%;
 }
+
+.skill_box{
+display:block;
+border: 2px solid blue;
+}

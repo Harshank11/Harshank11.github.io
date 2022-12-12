@@ -1,7 +1,8 @@
 import React from 'react'
-import { Box,Flex } from '@chakra-ui/react'
+import { Box,Heading,Center } from '@chakra-ui/react'
 import { UserProfile } from "./MySkills"
 import { Head } from './Head'
+import MyProject from './MyProject'
 
 const Main = () => {
   const usersdata = [
@@ -37,6 +38,11 @@ const Main = () => {
           description: "Redux",
           anc: "jobs",
         },
+        {
+          icon: "https://decodenatura.com/static/fb8aa1bb70c9925ce1ae22dc2711b343/4e9d0/nextjs-logo.png",
+          description: "Next.js",
+          anc: "jobs",
+        },
         
       ],
     },
@@ -45,8 +51,15 @@ const Main = () => {
   return (
     <Box>
       <Head/>
+      <Center>
+      <Heading color={'white'} mt={'12%'}>My Skills</Heading>
+      </Center>
      <UserProfile usersData={usersdata} />
      {/* <UserProfile usersData={usersdata} /><UserProfile usersData={usersdata} /><UserProfile usersData={usersdata} /><UserProfile usersData={usersdata} /> */}
+     <Center>
+     <Heading color={'white'} mt={'12%'}>My Project</Heading>
+     </Center>
+     <MyProject/>
     </Box>
   )
 }

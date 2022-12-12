@@ -1,4 +1,5 @@
-import { Center } from "@chakra-ui/react";
+import { Center,Button,Image } from "@chakra-ui/react";
+import "./Head.css"
 
 export function UserProfile(props) {
     return props.usersData.map((elem) => (
@@ -6,12 +7,12 @@ export function UserProfile(props) {
         <div className="data" >
           <div className="skills" >
             {elem.skillsets.map((elem) => (
-              <button className="skill_box" style={{ margin: 10 }}  >
-                <a href={elem.anc} style={{ display: "flex" }}>
-                <img width="45px" src={elem.icon} alt="" className="icon" />
+              <Button className="skill_box" style={{ margin: 20 }}  >
+                <a href={elem.anc} >
+                <Image width="95px" height="95px" src={elem.icon} alt=""  />
                 <p className="skill_text">{elem.description}</p>
                 </a> 
-              </button>
+              </Button>
             ))}
           </div>
         </div>
