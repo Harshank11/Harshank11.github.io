@@ -20,10 +20,17 @@ import {
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import './Navbar.css'
 import mypic from "./images/272A2504.JPG"
-import * as Scroll from 'react-scroll';
+import resume from "./images/Harshank's Resume .pdf"
+import { createBreakpoints } from "@chakra-ui/theme-tools"
+
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-
+const breakpoints = createBreakpoints({
+  sm: "320px",
+  md: "768px",
+  lg: "960px",
+  xl: "1200px",
+})
 const Links = ['Home','About Me', 'Projects', 'Skills'];
 
 const NavLink = ({ children }: { children: ReactNode }) => (
@@ -77,6 +84,7 @@ export default function Simple() {
               <Link to='skill'spy={true} smooth={true} offset={-230} duration={250} ><Button>Skill</Button></Link>
               <Link to='project'spy={true} smooth={true} offset={-60} duration={250} ><Button>Project</Button></Link>
               <Link to='contact'spy={true} smooth={true} offset={-30} duration={250} ><Button>Contact</Button></Link>
+              {/* <Button><a href={resume} download>Resume</a></Button> */}
           </Flex>
           <Flex alignItems={'center'} mr="15px">
             <Menu>
