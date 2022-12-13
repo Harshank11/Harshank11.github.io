@@ -84,7 +84,7 @@ export default function Simple() {
               <Link to='skill'spy={true} smooth={true} offset={-230} duration={250} ><Button>Skill</Button></Link>
               <Link to='project'spy={true} smooth={true} offset={-60} duration={250} ><Button>Project</Button></Link>
               <Link to='contact'spy={true} smooth={true} offset={-30} duration={250} ><Button>Contact</Button></Link>
-              {/* <Button><a href={resume} download>Resume</a></Button> */}
+              <Button><a href={resume} download>Resume</a></Button>
           </Flex>
           <Flex alignItems={'center'} mr="15px">
             <Menu>
