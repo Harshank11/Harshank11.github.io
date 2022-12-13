@@ -4,7 +4,7 @@ import {
   Flex,
   Avatar,
   HStack,
-  Link,
+  // Link,
   IconButton,
   Button,
   Menu,
@@ -19,6 +19,10 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import './Navbar.css'
+import mypic from "./images/272A2504.JPG"
+import * as Scroll from 'react-scroll';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 const Links = ['Home','About Me', 'Projects', 'Skills'];
 
@@ -46,11 +50,12 @@ export default function Simple() {
         <Flex border={'1px solid whit'} h={50} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
-            w={'50px'}
-            h={'50px'}
+            w={'1px'}
+            h={'1px'}
             backgroundColor={'pink.200'}
             ml={'20px'}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            // icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            // text={isOpen ? "Hello" : "world"}
             aria-label={'Open Menu'}
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
@@ -66,16 +71,16 @@ export default function Simple() {
               ))}
             </HStack>
           </HStack> */}
-          <Flex id="navbuttons"  justifyContent={'space-between'} w={'55%'}>
-              <Button >Home</Button>
-              <Button>About Me</Button>
-              <Button>Skill</Button>
-              <Button>Project</Button>
-              <Button>Contact</Button>
+          <Flex id="navbuttons"  justifyContent={'space-between'} w={'55%'} >
+              <Link to='home' spy={true} smooth={true} offset={100} duration={250} ><Button>Home</Button></Link>
+              {/* <Button>About Me</Button> */}
+              <Link to='skill'spy={true} smooth={true} offset={-230} duration={250} ><Button>Skill</Button></Link>
+              <Link to='project'spy={true} smooth={true} offset={-60} duration={250} ><Button>Project</Button></Link>
+              <Link to='contact'spy={true} smooth={true} offset={-30} duration={250} ><Button>Contact</Button></Link>
           </Flex>
           <Flex alignItems={'center'} mr="15px">
             <Menu>
-            <MenuButton>Contact</MenuButton>
+            {/* <MenuButton></MenuButton> */}
               <MenuButton
                 as={Button}
                 bg={'none'}
@@ -83,14 +88,14 @@ export default function Simple() {
                 cursor={'pointer'}
                 minW={0}>
                 <Avatar 
-                width={'50px'}
+                width={'55px'}
                 borderRadius={'50%'}
-                // mt={'20px'}
-                  // size={'sm'}
+                mt={'20px'}
+                  // size={'xl'}
                   px={20}
-                  py={10}
+                  py={20}
                   src={
-                    'https://media-exp1.licdn.com/dms/image/C4D03AQH7FgNHTSkJWQ/profile-displayphoto-shrink_800_800/0/1658905264225?e=2147483647&v=beta&t=Q4aP0vShPwnyS3OBnS-dX7IjV9FIy4zbDl-dXxjGGcI'
+                    mypic
                   }
                 />
               </MenuButton>
@@ -107,7 +112,7 @@ export default function Simple() {
           </Flex>
         </Flex>
 
-        {isOpen ? (
+        {/* {isOpen ? (
           <Box >
             <Stack as={'nav'} spacing={2} >
               {Links.map((link) => (
@@ -115,7 +120,7 @@ export default function Simple() {
               ))}
             </Stack>
           </Box>
-        ) : null}
+        ) : null} */}
       </Box>
     </>
   );

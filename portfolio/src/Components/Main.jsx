@@ -1,8 +1,10 @@
 import React from 'react'
 import { Box,Heading,Center } from '@chakra-ui/react'
+import Simple from './Navbar'
 import { UserProfile } from "./MySkills"
 import { Head } from './Head'
 import MyProject from './MyProject'
+import Contact from './Contact'
 
 const Main = () => {
   const usersdata = [
@@ -43,6 +45,11 @@ const Main = () => {
           description: "Next.js",
           anc: "jobs",
         },
+        {
+          icon: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
+          description: "Typescript",
+          anc: "jobs",
+        },
         
       ],
     },
@@ -50,16 +57,27 @@ const Main = () => {
 
   return (
     <Box>
-      <Head/>
+        <Simple position={"fixed"}/>
+
+      <Head name="home"/>
+
       <Center>
-      <Heading color={'white'} mt={'12%'}>My Skills</Heading>
+      <Heading name="skill" color={'white'} mt={'13%'}>My Skills</Heading>
       </Center>
-     <UserProfile usersData={usersdata} />
-     {/* <UserProfile usersData={usersdata} /><UserProfile usersData={usersdata} /><UserProfile usersData={usersdata} /><UserProfile usersData={usersdata} /> */}
-     <Center>
-     <Heading color={'white'} mt={'12%'}>My Project</Heading>
-     </Center>
-     <MyProject/>
+
+      <UserProfile usersData={usersdata} />
+
+      <Center>
+      <Heading name="project" color={'white'} mt={'15%'}>My Project</Heading>
+      </Center>
+
+      <MyProject/>
+
+      <Center>
+      <Heading name="contact" color={'white'} mt={'15%'} >Contact Me</Heading>
+      </Center>
+
+      <Contact />
     </Box>
   )
 }
