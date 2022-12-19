@@ -5,6 +5,7 @@ import { UserProfile } from "./MySkills"
 import { Head } from './Head'
 import MyProject from './MyProject'
 import Contact from './Contact'
+import GithubCalender from './GithubCalender'
 
 const Main = () => {
   const usersdata = [
@@ -74,8 +75,14 @@ const Main = () => {
 
       <MyProject/>
 
+    <Center mt={"10%"} fontWeight={"bold"}   >
+      <Box  backgroundColor={"rgb(211, 231, 235)"} p={"10px"}>
+     <GithubCalender/>
+     </Box>
+     </Center>
+
       <Center>
-      <Heading name="contact" color={'white'} mt={'15%'} >Contact Me</Heading>
+      <Heading name="contact" color={'white'} mt={'12%'} >Contact Me</Heading>
       </Center>
 
       <Contact />

@@ -9,11 +9,17 @@ import {
   Heading,
 } from "@chakra-ui/react";
 import mypic from "./images/272A2504.JPG";
+import { drawContributions } from "github-contributions-canvas";
+
 
 const Contact = () => {
   return (
     <Box mt={"3%"}>
       <Center justifyContent={"space-evenly"}>
+        <Box>
+          
+        <Image w={"100%"} src="https://github-readme-streak-stats.herokuapp.com/?user=harshank11&" />
+        </Box>
         <Box w="20%" mb={"100px"}>
           <Text color={"white"}>Email :- hrsk321@gmail.com</Text>
           <Text color={"white"}>Phone:- +918459583374</Text>

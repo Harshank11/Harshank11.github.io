@@ -84,15 +84,15 @@ export default function Simple() {
               <Link to='home' spy={true} smooth={true} offset={100} duration={250} ><Text id="navb" fontSize={[ '13px', '14px', '17px' ]} padding={['5px 15px' , '6px 18px', '8px 25px']} mt={['0px ' , '12px', '25px']} >Home</Text></Link>
               {/* <Button>About Me</Button> */}
               <Link to='skill'spy={true} smooth={true} offset={-230} duration={250} ><Text id="navb" fontSize={[ '13px', '14px', '17px' ]} padding={['5px 15px' , '6px 18px', '8px 25px']} mt={['10px ' , '12px', '25px']} >Skill</Text></Link>
-              <Link to='project'spy={true} smooth={true} offset={-60} duration={250} ><Text id="navb" fontSize={[ '13px', '14px', '17px' ]} padding={['5px 15px' , '6px 18px', '8px 25px']} mt={['10px ' , '12px', '25px']}>Project</Text></Link>
-              <Link to='contact'spy={true} smooth={true} offset={-30} duration={250} ><Text id="navb" fontSize={[ '13px', '14px', '17px' ]} padding={['5px 15px' , '6px 18px', '8px 25px']} mt={['10px ' , '12px', '25px']} >Contact</Text></Link>
+              <Link to='project'spy={true} smooth={true} offset={-60} duration={250} ><Text id="navb" fontSize={[ '13px', '14px', '17px' ]} padding={['5px 15px' , '6px 18px', '8px 25px']} mt={['50px ' , '12px', '25px']}>Project</Text></Link>
+              <Link to='contact'spy={true} smooth={true} offset={-30} duration={250} ><Text id="navb" fontSize={[ '13px', '14px', '17px' ]} padding={['5px 15px' , '6px 18px', '8px 25px']} mt={['50px ' , '12px', '25px']} >Contact</Text></Link>
               <Button fontSize={[ '13px', '14px', '17px' ]} padding={['5px 15px' , '6px 18px', '8px 25px']} mt={['10px ' , '12px', '25px']} ><a href={resume} download >Resume</a></Button>
           </Flex>
           <Flex alignItems={'center'} 
           borderColor={'white'}
             
             >
-              <Hide below='sm'>
+              
             <Menu>
             {/* <MenuButton></MenuButton> */}
               <MenuButton
@@ -103,6 +103,7 @@ export default function Simple() {
                 cursor={'pointer'}
                 // minW={10}
                 >
+                  <Hide below='sm'>
                 <Avatar 
                 width={'55px'}
                 borderRadius={'50%'}
@@ -115,6 +116,7 @@ export default function Simple() {
                     mypic
                   }
                 />
+                </Hide>
               </MenuButton>
               <MenuList >
                 <MenuItem>Contact Me</MenuItem>
@@ -126,7 +128,7 @@ export default function Simple() {
                 <MenuItem><Link href="https://www.instagram.com/hrsk_photography/" isExternal>Instagram</Link></MenuItem>
               </MenuList>
             </Menu>
-            </Hide>
+           
           </Flex>
         </Flex>
 
