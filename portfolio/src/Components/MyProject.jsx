@@ -9,13 +9,14 @@ import Movieapp from "./images/Screenshot (1037).png";
 
 const MyProject = () => {
   return (
-    <Box>
+    <Box >
       <Center  >
-        <Center >
+        <Center  >
         <Link
           id="container"
           w={"50%"}
           m={"3%"}
+          mb={"3%"}
           href="https://friendly-pudding-a5d011.netlify.app/homepage/"
           isExternal
         >
@@ -37,7 +38,7 @@ const MyProject = () => {
             
           </Text>
         </Link>
-        <Box >
+        <Box id="tech" >
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
@@ -70,7 +71,7 @@ const MyProject = () => {
           It's an Employment website, inspired by Naukri.com. Made with React,Javascript and Chakra UI.
           </Text>
         </Link>
-        <Box >
+        <Box id="tech" >
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
@@ -102,7 +103,7 @@ const MyProject = () => {
           PharmEasy is an Indian e-pharmacy company that sells medicines, diagnostics and telehealth online.
           </Text>
         </Link>
-        <Box >
+        <Box id="tech">
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
@@ -131,7 +132,7 @@ const MyProject = () => {
             A Dice Game made with HTML,CSS And Javascript. Just click and Play.
           </Text>
         </Link>
-        <Box >
+        <Box id="tech">
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
@@ -163,7 +164,7 @@ const MyProject = () => {
             A Movie Poster website. 
           </Text>
         </Link>
-        <Box >
+        <Box id="tech">
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>

@@ -25,6 +25,8 @@ transition: 0.4s;
    } */
 #container{
    position: relative;
+   text-decoration: none;
+   /* border: 1px solid white; */
    
 }
 
@@ -67,4 +69,8 @@ transition: 0.4s;
       padding: 16px 32px;
     }
 
-   
+   #tech{
+      /* border: 1px solid white; */
+      width: 20px;
+
+   }
