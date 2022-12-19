@@ -57,14 +57,15 @@ const Main = () => {
 
   return (
     <Box>
-        <Simple position={"fixed"}/>
+        <Simple />
 
-      <Head name="home"/>
+      <Head name="home" />
 
       <Center>
       <Heading name="skill" color={'white'} mt={'13%'}>My Skills</Heading>
       </Center>
 
+      
       <UserProfile usersData={usersdata} />
 
       <Center>

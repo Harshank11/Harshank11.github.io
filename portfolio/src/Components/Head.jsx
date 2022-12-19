@@ -5,8 +5,8 @@ import React from "react";
 export function Head() {
  
   return (
-    <Center textColor={"white"} mt={'10%'} >
-      <Flex width={"85%"}>
+    <Center textColor={"white"} mt={['10%']} borderColor={"1px solid white"} padding={"3%"}>
+      
         <Heading >
           <Text w={"80%"} >Hello,</Text>
           <Text w={"80%"}>I am, Harshank Patel </Text>
@@ -22,7 +22,7 @@ export function Head() {
           id="image"
           src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif"
         />
-      </Flex>
+      
     </Center>
   );
 }

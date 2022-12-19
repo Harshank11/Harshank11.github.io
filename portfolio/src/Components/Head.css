@@ -6,5 +6,65 @@
 .skill_box{
 display:block;
 border: 2px solid blue;
+transition: 0.4s;
+  transform-origin: center center;
+  filter: brightness(80%);
 }
 
+.skill_box:hover{
+   filter: brightness(100%);
+   transform: scale(1.3);
+   }
+
+   /* #special{
+      transition: 0.4s ease;
+   }
+
+   #special:hover{
+      transform: scale(1.1);
+   } */
+#container{
+   position: relative;
+   
+}
+
+   .special {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    .special:hover{
+       transform: scale(1.2);
+    }
+    
+    .beforetext {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+       transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%); 
+      text-align: center;
+    }
+    
+    #container:hover .special {
+      opacity: 0.3;
+    }
+    
+    #container:hover .beforetext {
+      opacity: 1;
+    }
+    
+    #text {
+      background-color:rgb(109, 178, 196);
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+
+   
