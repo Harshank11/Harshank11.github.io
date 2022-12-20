@@ -148,7 +148,7 @@ const MyProject = () => {
           id="container"
           w={"50%"}
           m={"3%"}
-          href="https://sensational-treacle-ef9a5a.netlify.app/"
+          href="https://spectacular-beignet-127a71.netlify.app/"
           isExternal
         >
           <Image
