@@ -1,29 +1,174 @@
-#navbuttons Button{
-    width:100px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(211, 231, 235);
-}
 
-#navbuttons button:hover{
-    background-color: rgb(151, 205, 219);
-    transform: scale(1.2);
-    transition: 250ms ease-in-out;
-    cursor: pointer;
 
-}
+@media only screen and (min-width: 350px) {
+    #navb{
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+        font-size:12px ;
+        padding:6px 15px;
+         margin-top:25px
+    }
+    
+    #navb:hover{
+        background-color: rgb(151, 205, 219);
+        transform: scale(1.2);
+        transition: 250ms ease-in-out;
+        cursor: pointer;
+    
+    }
 
-#navb{
+    #navbuttons Button{
+        width:60px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+    }
+    
+    #navbuttons button:hover{
+        background-color: rgb(151, 205, 219);
+        transform: scale(1.2);
+        transition: 250ms ease-in-out;
+        cursor: pointer;
+    
+    }
+
+    #mypic{
+        margin-top: 0px;
+        margin-right: 0px;
+       
+    }
+
+    #hidee{
+        display: none;
+      
+    }
+    
    
-    text-align: center;
-    border-radius: 20px;
-    background-color: rgb(211, 231, 235);
 }
 
-#navb:hover{
-    background-color: rgb(151, 205, 219);
-    transform: scale(1.2);
-    transition: 250ms ease-in-out;
-    cursor: pointer;
+@media only screen and (min-width: 650px) {
 
+    #navbuttons{
+        width: 75%;
+        margin-left: 20px;
+    }
+
+    #navbuttons Button{
+        width:100px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+    }
+    
+    #navbuttons button:hover{
+        background-color: rgb(151, 205, 219);
+        transform: scale(1.2);
+        transition: 250ms ease-in-out;
+        cursor: pointer;
+    
+    }
+    #navb{
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+        font-size:19px ;
+        padding:8px 20px;
+         margin-top:25px
+    }
+    
+    #navb:hover{
+        background-color: rgb(151, 205, 219);
+        transform: scale(1.2);
+        transition: 250ms ease-in-out;
+        cursor: pointer;
+    
+    }
+    #mypic{
+        margin-top: 20px;
+       
+    }
+    #hidee{
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+        font-size:19px ;
+        padding:6px 20px;
+         margin-top:25px;
+         display: block;
+    }
+
+    #hidee{
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+      
+    }
+    
+    #hidee:hover{
+        background-color: rgb(151, 205, 219);
+        transform: scale(1.2);
+        transition: 250ms ease-in-out;
+        cursor: pointer;
+    
+    }
 }
+
+@media only screen and (min-width: 980px) {
+
+    #navbuttons{
+        width: 55%;
+        margin-left: 50px;
+    }
+    #navb{
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+      
+    }
+    
+    #navb:hover{
+        background-color: rgb(151, 205, 219);
+        transform: scale(1.2);
+        transition: 250ms ease-in-out;
+        cursor: pointer;
+    
+    }
+
+    #hidee{
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+        display: block;
+      
+    }
+    
+    #hidee:hover{
+        background-color: rgb(151, 205, 219);
+        transform: scale(1.2);
+        transition: 250ms ease-in-out;
+        cursor: pointer;
+    
+    }
+    
+    #navbuttons Button{
+        width:100px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgb(211, 231, 235);
+    }
+    
+    #navbuttons button:hover{
+        background-color: rgb(151, 205, 219);
+        transform: scale(1.2);
+        transition: 250ms ease-in-out;
+        cursor: pointer;
+    
+    }
+    #mypic{
+        margin-top: 10px;
+       
+    }
+}
+
+

@@ -51,7 +51,16 @@ const Main = () => {
           description: "Typescript",
           anc: "jobs",
         },
-        
+        {
+          icon: "https://miro.medium.com/max/512/1*doAg1_fMQKWFoub-6gwUiQ.png",
+          description: "Mongo DB",
+          anc: "jobs",
+        },
+        {
+          icon: "https://ih1.redbubble.net/image.438908244.6144/st,small,507x507-pad,600x600,f8f8f8.u2.jpg",
+          description: "Express Js",
+          anc: "jobs",
+        },
       ],
     },
   ];

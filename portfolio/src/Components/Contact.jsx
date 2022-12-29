@@ -14,7 +14,7 @@ import { drawContributions } from "github-contributions-canvas";
 
 const Contact = () => {
   return (
-    <Box mt={"3%"}>
+    <Box mt={"3%"} >
       <Center justifyContent={"space-evenly"}>
         <Box>
           
@@ -41,10 +41,10 @@ const Contact = () => {
           </Link>
         </Box>
 
-        <Image w={"20%"} borderRadius={"50%"} src={mypic} mb={"100px"}></Image>
+        <Image w={"20%"} borderRadius={"50%"} src={mypic}></Image>
       </Center>
 
-      <hr />
+      {/* <hr /> */}
       <br />
     </Box>
   );
