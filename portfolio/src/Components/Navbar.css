@@ -124,7 +124,7 @@
         text-align: center;
         border-radius: 20px;
         background-color: rgb(211, 231, 235);
-      
+        transition: 0.4s;
     }
     
     #navb:hover{

@@ -51,7 +51,7 @@ export default function Simple() {
               <Link to='skill'spy={true} smooth={true} offset={-230} duration={250} ><Text id="navb"  >Skill</Text></Link>
               <Link to='project'spy={true} smooth={true} offset={-60} duration={250} ><Text id="navb" >Project</Text></Link>
               <Link to='contact'spy={true} smooth={true} offset={-30} duration={250} ><Text id="hidee"  >Contact</Text></Link>
-              <Button id="navb"><a href={resume} download style={{ textDecoration: 'none' }} >Resume</a></Button>
+              <Button id="navb"><a href={resume} download style={{ textDecoration: 'none',color:'black' }} >Resume</a></Button>
           </Flex>
           <Flex alignItems={'center'} id="mypic"
             >

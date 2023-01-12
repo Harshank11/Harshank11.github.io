@@ -16,7 +16,7 @@ const MyProject = () => {
           id="container"
           w={"50%"}
           m={"3%"}
-          mb={"3%"}
+          // mb={"3%"}
           href="https://friendly-pudding-a5d011.netlify.app/homepage/"
           isExternal
         >
@@ -32,7 +32,7 @@ const MyProject = () => {
             </Text>
           </Box>
           <Text color={"white"} >
-          Himalaya offers a full line of clinically-studied herbal formulations, certified USDA organic Single herbs, and a full line of body care products.
+          Himalaya offers a full line of clinically-studied herbal formulations, and body care products.
 
             {/* <Image w={"50px"} src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/> */}
             
@@ -129,7 +129,7 @@ const MyProject = () => {
             <Text id="text">Play Dice Game</Text>
           </Box>
           <Text color={'white'}>
-            A Dice Game made with HTML,CSS And Javascript. Just click and Play.
+            A Dice Game made with HTML,CSS And Javascript. Just click and Play. color notation for result.
           </Text>
         </Link>
         <Box id="tech">
@@ -161,7 +161,7 @@ const MyProject = () => {
             <Text id="text">View Movie Search</Text>
           </Box>
           <Text color={'white'}>
-            A Movie Poster website. 
+            A Movie poster search website. 
           </Text>
         </Link>
         <Box id="tech">
