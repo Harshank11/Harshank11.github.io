@@ -22,18 +22,10 @@ import {
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import './Navbar.css'
 import mypic from "./images/272A2504.JPG"
-import resume from "./images/Harshank's Resume .pdf"
-// import { createBreakpoints } from "@chakra-ui/theme-tools"
+import resume from "./images/Harshank_Patel_resume .pdf"
 
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-// const breakpoints = createBreakpoints({
-//   sm: "320px",
-//   md: "768px",
-//   lg: "960px",
-//   xl: "1200px",
-// })
-// const Links = ['Home','About Me', 'Projects', 'Skills'];
 
 
 
