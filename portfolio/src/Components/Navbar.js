@@ -34,18 +34,18 @@ export default function Simple() {
 
   return (
     <>
-      <Box   >
-        <Flex   justifyContent={"space-between"} >
+      <Box    >
+        <Flex  justifyContent={"space-between"} bg={"rgba(0,0,0,0.35)"}  position={'fixed'} w={'100%'} mt={'-11%'} zIndex={'1'}>
    
-          <Flex id="navbuttons"  justifyContent={'space-between'}  ml={"10px"} >
+          <Flex id="navbuttons"  >
               <Link to='home' spy={true} smooth={true} offset={100} duration={250} ><Text id="navb" >Home</Text></Link>
               {/* <Button>About Me</Button> */}
               <Link to='skill'spy={true} smooth={true} offset={-230} duration={250} ><Text id="navb"  >Skill</Text></Link>
               <Link to='project'spy={true} smooth={true} offset={-60} duration={250} ><Text id="navb" >Project</Text></Link>
               <Link to='contact'spy={true} smooth={true} offset={-30} duration={250} ><Text id="hidee"  >Contact</Text></Link>
-              <Button id="navb"><a href={resume} download style={{ textDecoration: 'none',color:'black' }} >Resume</a></Button>
+              <Button id="navb" border={'none'}><a href={resume} download style={{ textDecoration: 'none',color:'black' }} >Resume</a></Button>
           </Flex>
-          <Flex alignItems={'center'} id="mypic"
+          <Flex alignItems={'center'} id="mypic" 
             >
               
             <Menu  >

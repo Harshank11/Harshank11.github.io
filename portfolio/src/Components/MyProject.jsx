@@ -43,6 +43,8 @@ const MyProject = () => {
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
         <Link href="https://github.com/btcpatil/handy-zipper-9467" isExternal><Image w={"50px"} src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></Image></Link>
+        <Link href="https://friendly-pudding-a5d011.netlify.app/homepage/" isExternal><Image w={"50px"} src="https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_400x400.jpg"></Image></Link>
+
         </Box>
         
         
@@ -76,6 +78,8 @@ const MyProject = () => {
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
         <Link href="https://github.com/Harshank11/Get-Rojgar.com" isExternal><Image w={"50px"} src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></Image></Link>
+        <Link href="https://gorgeous-halva-da55a4.netlify.app/" isExternal><Image w={"50px"} src="https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_400x400.jpg"></Image></Link>
+
         </Box>
 
         </Center>
@@ -108,6 +112,8 @@ const MyProject = () => {
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
         <Link href="https://github.com/chinmaydonkar/PharmEasy" isExternal><Image w={"50px"} src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></Image></Link>
+        <Link href="https://enchanting-bonbon-ad5692.netlify.app/" isExternal><Image w={"50px"} src="https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_400x400.jpg"></Image></Link>
+
         </Box>
         </Center>
 
@@ -116,7 +122,7 @@ const MyProject = () => {
           id="container"
           w={"50%"}
           m={"3%"}
-          href="https://app.netlify.com/sites/polite-empanada-4da15c/overview"
+          href="https://polite-empanada-4da15c.netlify.app/"
           isExternal
         >
           <Image
@@ -137,6 +143,8 @@ const MyProject = () => {
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
         <Link href="https://github.com/btcpatil/handy-zipper-9467" isExternal><Image w={"50px"} src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></Image></Link>
+        <Link href="https://polite-empanada-4da15c.netlify.app/" isExternal><Image w={"50px"} src="https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_400x400.jpg"></Image></Link>
+
         </Box>
         </Center>
       </Center>
@@ -169,6 +177,8 @@ const MyProject = () => {
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"/>
         <Image w={"50px"} src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"/>
         <Link href="https://github.com/btcpatil/handy-zipper-9467" isExternal><Image w={"50px"} src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></Image></Link>
+        <Link href="https://spectacular-beignet-127a71.netlify.app/" isExternal><Image w={"50px"} src="https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_400x400.jpg"></Image></Link>
+
         </Box>
         </Center>
       </Center>
