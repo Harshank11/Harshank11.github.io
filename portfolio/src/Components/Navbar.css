@@ -1,12 +1,18 @@
 
 
 @media only screen and (min-width: 350px) {
+    #navbuttons{
+        width: 75%;
+        /* margin-left: 20px; */
+        /* border: 1px solid white; */
+    }
+
     #navb{
         text-align: center;
         border-radius: 20px;
         background-color: rgb(211, 231, 235);
-        font-size:12px ;
-        padding:6px 15px;
+        font-size:15px ;
+        padding:10px 19px;
          margin-top:25px
     }
     
@@ -19,8 +25,8 @@
     }
 
     #navbuttons Button{
-        width:60px;
-        height: 30px;
+        width:65px;
+        height: 40px;
         border-radius: 20px;
         background-color: rgb(211, 231, 235);
     }
@@ -47,7 +53,7 @@
    
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 550px) {
 
     #navbuttons{
         width: 75%;
