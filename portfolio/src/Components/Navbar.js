@@ -43,7 +43,14 @@ export default function Simple() {
               <Link to='skill'spy={true} smooth={true} offset={-230} duration={250} ><Text id="navb"  >Skill</Text></Link>
               <Link to='project'spy={true} smooth={true} offset={-60} duration={250} ><Text id="navb" >Project</Text></Link>
               <Link to='contact'spy={true} smooth={true} offset={-30} duration={250} ><Text id="hidee"  >Contact</Text></Link>
-              <Button id="navb" border={'none'}><a href={resume} download style={{ textDecoration: 'none',color:'black' }} >Resume</a></Button>
+              <Button id="navb" border={'none'}><a href={resume} download style={{ textDecoration: 'none',color:'black' }} onClick={() => {
+                    
+                    window.open(
+                      "https://drive.google.com/drive/u/0/folders/18Aa-YNBj_IJa2-Sxr6w8xL91eXti9AMf",
+                      "_blank",
+                      "noopener,noreferrer"
+                    );
+                  }} >Resume</a></Button>
           </Flex>
           <Flex alignItems={'center'} id="mypic" 
             >
